@@ -1,5 +1,3 @@
-# VM setup
-
 # VM Setup for Windows Server Lab
 
 This document describes how I set up the virtual machines for my Windows Server lab.
