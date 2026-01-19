@@ -11,10 +11,26 @@ This document describes how I set up the virtual machines for my Windows Server 
   - **Windows Server VM** (for Domain Controller)
   - **Windows 11 VM** (as a client)
   - **Windows 11 VM** (as a second client)
+
+![OS_list](../screenshots/VM-setup/OS_list.png)
+
 - Allocated basic resources:
-  - CPU: 4 cores each
-  - RAM: 4 GB (Server), 2 GB (Clients)
-  - Disk: 50 GB (Server), 50 GB (Clients)
+
+  CPU: 4 cores each
+
+    **Server:**
+  - RAM: 4 GB
+  - Disk: 50 GB
+    
+    ![Specifications](../screenshots/VM-setup/ServerVM_specifications1.png)
+     ![Specifications2](../screenshots/VM-setup/ServerVM_specifications2.png)
+ 
+    **Client:**
+  - RAM: 2 GB 
+  - Disk: 50 GB
+
+     ![Specifications](../screenshots/VM-setup/ClientVM_specifications1.png)
+     ![Specifications2](../screenshots/VM-setup/ClientVM_specifications2.png)
 
 ## 3. Network Configuration
 - Initially tried **internal network**, but it was inconvenient for me due to no internet access, but it was ready to use.
