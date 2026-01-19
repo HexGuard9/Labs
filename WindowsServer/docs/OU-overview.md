@@ -15,6 +15,7 @@ I created the following OUs in **Active Directory**:
   - **John Doe** → NY-HR
   - **Jane Doe** → NY-IT
 
+![OU structure](../screenshots/OU-overview/OU_structure.png)
 
 
 ## 2. Steps to Create OU and Users
@@ -25,19 +26,27 @@ I created the following OUs in **Active Directory**:
 4. For nested OUs (NY-HR, NY-IT, NY-SALES):
    - Right-click **NY** → **New → Organizational Unit** → set name.
 5. Optional: Uncheck **Protect object from accidental deletion** if you want to allow deleting/restoring later.
-6. Enable **Active Directory Recycle Bin** to recover deleted OUs if needed:
+
+![OU gui](../screenshots/OU-overview/OU-gui1.png)
+   
+7. Enable **Active Directory Recycle Bin** to recover deleted OUs if needed:
    - Open **AD Administrative Center → Enable Recycle Bin**.
-7. Create **Security Groups**:
+8. Create **Security Groups**:
    - Right-click domain → **New → Group**
    - Name them `HR` and `IT`
    - Set group scope and type (Global, Security)
-8. Create Users:
+9. Create Users:
    - Right-click the appropriate OU → **New → User**
    - Add `John Doe` to NY-HR
    - Add `Jane Doe` to NY-IT
-9. Assign users to Security Groups:
+
+  ![OU usersHR](../screenshots/OU-overview/Users_NY-HR.png)
+  ![OU usersIT](../screenshots/OU-overview/Users_NY-IT.png)
+     
+10. Assign users to Security Groups:
    - Right-click user → **Add to a group** → choose HR or IT
 
+ ![Full OU Screenshot](../screenshots/OU-overview/Full_OU_Screenshot.png)
 
 
 ## 3. Notes
