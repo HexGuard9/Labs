@@ -38,7 +38,7 @@ This document describes how I set up the virtual machines for my Windows Server 
 
 ## 4. Installation Notes
 - Installed Windows Server first, added **Active Directory Domain Services (AD DS)** role.
-- Installed Windows 11 client and joined it to the domain later.
+- Installed Windows 11 clients and joined it to the domain later.
 - All configuration was done manually to practice real sysadmin tasks.
 
 ---
