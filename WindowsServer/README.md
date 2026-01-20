@@ -14,15 +14,13 @@ These are my Windows Server lab. I used this to practice AD, GPO, DHCP/DNS and j
 - `docs/` – documentation of lab setup and configuration  
 - `screenshots/` – screenshots showing AD, GPO, DHCP/DNS setup
 
-### docs/ Examples:
+## Steps
 
+| Number | Link                              |
+|--------|-----------------------------------|
+| 1      | [VM-setup](docs/VM-setup.md)      |
+| 2      | [DHCP-DNS-overview](docs/DHCP-DNS.md) |
+| 3      | [OU-overview](docs/OU-overview.md) |
+| 4      | [GPO-overview](docs/GPO-overview.md) |
+| 5      | [DomainJoin](docs/DomainJoin.md)  |
 
-### screenshots/ Examples:
-
-
-## How to Reproduce
-1. Download **Windows Server** (version used: 2022)  
-2. Add **Active Directory Domain Services (AD DS)** role  
-3. Configure **OU structure** and user accounts  
-4. Set up **GPOs** for policies  
-5. Configure **DHCP and DNS**  
