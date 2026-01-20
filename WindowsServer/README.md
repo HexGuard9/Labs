@@ -19,7 +19,7 @@ These are my Windows Server lab. I used this to practice AD, GPO, DHCP/DNS and j
 | Number | Link                              |
 |--------|-----------------------------------|
 | 1      | [VM-setup](docs/VM-setup.md)      |
-| 2      | [DHCP-DNS-overview](docs/DHCP-DNS.md) |
+| 2      | [DHCP-DNS-overview](docs/DHCP-DNS-overview.md) |
 | 3      | [OU-overview](docs/OU-overview.md) |
 | 4      | [GPO-overview](docs/GPO-overview.md) |
 | 5      | [DomainJoin](docs/DomainJoin.md)  |
