@@ -12,4 +12,4 @@ Hands-on labs demonstrating my skills in various areas
 
 | Labs | Link | 
 |-----------|----------|
-| Windows-server | N/A | 
+| Windows-server | [Click Here](WindowsServer/README.md)  | 
