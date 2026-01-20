@@ -16,17 +16,17 @@ I created the following GPOs:
 
 
 
-![NY-IT gpo](screenshots/GPO-overview/NY-IT.png)
+![NY-IT gpo](../screenshots/GPO-overview/NY-IT.png)
 
 
-![HR gpo](screenshots/GPO-overview/HR.png)
+![HR gpo](../screenshots/GPO-overview/HR.png)
 
 - Each GPO was linked to the respective **Organizational Unit (OU)**:
   - `NY-IT` OU → `Disable CMD` & `LocalUserNotAllowed`
   - `HR` OU → `Disable CMD`
 - Policies were **tested on computers joined to the domain** to make sure they work correctly.
 
-![Cmd Blocked](screenshots/GPO-overview/CMDnotallowed.png)  
+![Cmd Blocked](../screenshots/GPO-overview/CMDnotallowed.png)  
 
 ---
 
