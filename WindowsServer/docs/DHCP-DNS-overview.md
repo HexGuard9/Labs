@@ -62,7 +62,7 @@ The lab consists of three Windows machines:
 
 | Scope Name | Start IP      | End IP        | Subnet Mask     | DNS Server      |
 |------------|---------------|---------------|----------------|----------------|
-| LabScope   | 192.168.0.100 | 192.168.0.150 | 255.255.255.0  | 192.168.0.210  |
+| LabScope   | 192.168.0.100 | 192.168.0.200 | 255.255.255.0  | 192.168.0.210  |
 
 - **Leases**: currently only two leases exist, because the clients are using static IPs.
 - **Notes**: Leases will populate once clients switch to DHCP (automatic IP).
